@@ -33,5 +33,6 @@ GND | GND
 2. Open the serial monitor (Make sure baud rate is set to 9600)
 3. The distance measured in centimeters (cm) will print to the serial monitor
 
-
+## Note
+You can increase the baud rate for faster reads
 
