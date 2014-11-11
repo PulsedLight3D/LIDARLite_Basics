@@ -3,7 +3,9 @@ LIDARLite_Basics
 
 This repository contains sample code demonstrating different features and functions of the LIDAR-Lite Sensor. As we test with more different micro controllers we will continue to add to this repo. 
 
-*Each micro contoller has its own folder and the README.md within that folder contains documentation for the code within that folder.*
+***If you've made any code for specific systems, environments, or micro controllers, please fork and propose!***
+
+*Each micro controller has its own folder and the README.md within that folder contains documentation for the code within that folder.*
 
 
 ## [/Arduino](Arduino)
