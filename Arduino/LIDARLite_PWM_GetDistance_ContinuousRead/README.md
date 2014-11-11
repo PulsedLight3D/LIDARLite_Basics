@@ -13,15 +13,15 @@ Demonstrates taking a distance reading using Pulse-Width Modulation (PWM), does 
 
 ## Arduino Setup
 
-![arduino-screenshot](http://pulsedlight3d.com/pl3d/wp-content/uploads/2014/11/arduino-pwm-setup1.png)
+![arduino-screenshot](http://pulsedlight3d.com/pl3d/wp-content/uploads/2014/11/arduino-pwm-setup2.png)
 
 ### LIDARLite I2C Connection Setup
 LIDARLite Cable | Arduino Pins
 :---|:---
 5V | 5V
 PWR EN | _(Unused)_
-MODE | _(Unused)_
-SCL | Connect to 1kΩ Resistor and Pin #3
+MODE | Connect to 1kΩ Resistor and Pin #3
+SCL | _(Unused)_
 SDA | _(Unused)_
 GND | GND
 
@@ -33,6 +33,5 @@ GND | GND
 2. Open the serial monitor (Make sure baud rate is set to 9600)
 3. The distance measured in centimeters (cm) will print to the serial monitor
 
-## Note
-You can increase the baud rate for faster reads
+
 
