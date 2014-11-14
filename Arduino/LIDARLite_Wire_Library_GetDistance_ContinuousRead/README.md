@@ -24,7 +24,6 @@ Mega2560      | 20 (SDA), 21 (SCL)
 Leonardo      | 2 (SDA), 3 (SCL)
 Due           |20 (SDA), 21 (SCL), SDA1, SCL1
 
-
 ![arduino-screenshot](http://pulsedlight3d.com/pl3d/wp-content/uploads/2014/10/arduino-setup.png)
 
 ### LIDARLite I2C Connection Setup
