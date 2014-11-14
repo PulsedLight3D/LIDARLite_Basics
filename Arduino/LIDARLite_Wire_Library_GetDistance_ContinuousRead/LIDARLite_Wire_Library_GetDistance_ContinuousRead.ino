@@ -2,6 +2,7 @@
 http://pulsedlight3d.com
 This sketch demonstrates getting distance with the LIDAR-Lite Sensor
 It utilizes the 'Arduino Wire Library'
+(tidied up by Mark Harrison, mh@pixar.com)
 */
 
 #include <Wire.h>
@@ -20,20 +21,20 @@ void setup()
 
 void loop()
 {
-  Wire.beginTransmission((int)LIDARLite_ADDRESS); // transmit to LIDAR-Lite
-  Wire.write((int)RegisterMeasure); // sets register pointer to  (0x00)  
-  Wire.write((int)MeasureValue);    // sets register pointer to  (0x00)  
-  Wire.endTransmission();           // stop transmitting
+  Wire.beginTransmission(LIDARLite_ADDRESS); // transmit to LIDAR-Lite
+  Wire.write(RegisterMeasure);               // set register pointer to 0x00  
+  Wire.write(MeasureValue);                  // set register pointer to 0x00  
+  Wire.endTransmission();                    // stop transmitting
 
-  delay(20);                        // Wait 20ms for transmit
+  delay(20);                                 // Wait 20ms for transmit
 
-  Wire.beginTransmission((int)LIDARLite_ADDRESS); // transmit to LIDAR-Lite
-  Wire.write((int)RegisterHighLowB); // sets register pointer to (0x8f)
-  Wire.endTransmission();            // stop transmitting
+  Wire.beginTransmission(LIDARLite_ADDRESS); // transmit to LIDAR-Lite
+  Wire.write(RegisterHighLowB);              // set register pointer to 0x8f
+  Wire.endTransmission();                    // stop transmitting
 
-  delay(20);                         // Wait 20ms for transmit
+  delay(20);                                 // Wait 20ms for transmit
 
-  Wire.requestFrom((int)LIDARLite_ADDRESS, 2); //request 2 bytes from LIDAR-Lite
+  Wire.requestFrom(LIDARLite_ADDRESS, 2);    // request 2 bytes from LIDAR-Lite
 
   if(Wire.available() >= 2)  // if two bytes were received
   {
