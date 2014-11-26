@@ -1,5 +1,5 @@
-LIDARLite_Wire_Library_GetDistance_ContinuousRead
-========================================
+LIDARLite\_Wire\_Library\_GetDistance\_ContinuousRead
+=================================================
 
 Demonstrates taking a distance reading using the default Arduino Wire Library (works but is not the ideal configuration)
 
@@ -14,6 +14,16 @@ Demonstrates taking a distance reading using the default Arduino Wire Library (w
 
 ## Arduino Setup
 
+Note: the current picture is wrong with regards to SDA, SCL pin
+location on the Arduino boards.  This table is correct.
+
+Arduino Board | SDA, SCL Pins
+:--------------|:--------------
+Uno, Pro Mini | A4 (SDA), A5 (SCL)
+Mega2560      | 20 (SDA), 21 (SCL)
+Leonardo      | 2 (SDA), 3 (SCL)
+Due           |20 (SDA), 21 (SCL), SDA1, SCL1
+
 ![arduino-screenshot](http://pulsedlight3d.com/pl3d/wp-content/uploads/2014/10/arduino-setup.png)
 
 ### LIDARLite I2C Connection Setup
@@ -22,8 +32,8 @@ LIDARLite Cable | Arduino Pins
 5V | 5V
 PWR EN | _(Unused)_
 MODE | _(Unused)_
-SCL | SCL (topmost pin on the right hand side of Arduino)
-SDA | SDA (second pin from the top on the right hand side of Arduino)
+SCL | see table above
+SDA | see table above
 GND | GND
 
 ## Usage

@@ -17,6 +17,16 @@ http://arduino.cc/en/Guide/Libraries
 
 ## Arduino Setup
 
+Note: the current picture is wrong with regards to SDA, SCL pin
+location on the Arduino boards.  This table is correct.
+
+Arduino Board | SDA, SCL Pins
+:--------------|:--------------
+Uno, Pro Mini | A4 (SDA), A5 (SCL)
+Mega2560      | 20 (SDA), 21 (SCL)
+Leonardo      | 2 (SDA), 3 (SCL)
+Due           |20 (SDA), 21 (SCL), SDA1, SCL1
+
 ![arduino-screenshot](http://pulsedlight3d.com/pl3d/wp-content/uploads/2014/10/arduino-setup.png)
 
 ### LIDARLite I2C Connection Setup
