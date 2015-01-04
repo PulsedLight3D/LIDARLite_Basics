@@ -13,7 +13,7 @@ Demonstrates taking a distance reading using Pulse-Width Modulation (PWM), does 
 
 ## Arduino Setup
 
-![arduino-screenshot](http://pulsedlight3d.com/pl3d/wp-content/uploads/2014/11/arduino-pwm-setup2.png)
+![arduino-screenshot](http://pl3d.us/arduino-pwm-setup.png)
 
 ### LIDARLite I2C Connection Setup
 LIDARLite Cable | Arduino Pins
