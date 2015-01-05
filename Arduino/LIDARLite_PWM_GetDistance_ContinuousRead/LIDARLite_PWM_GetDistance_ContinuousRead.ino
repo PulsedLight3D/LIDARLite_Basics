@@ -21,7 +21,7 @@ void setup()
   Serial.begin(9600); // Start serial communications
   pinMode(2, OUTPUT); // Set pin 2 as trigger pin
   pinMode(3, INPUT); // Set pin 3 as monitor pin
-  digitalWrite(3, LOW); // Set trigger LOW for continuous read
+  digitalWrite(2, LOW); // Set trigger LOW for continuous read
 }
 
 void loop()
