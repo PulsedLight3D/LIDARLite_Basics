@@ -20,7 +20,7 @@ int reading = 0;
 void setup()
 {
   Wire.begin(); // join i2c bus
-  Serial.begin(115200); // start serial communication at 115200bps
+  Serial.begin(9600); // start serial communication at 9600bps
 }
 
 void loop()
