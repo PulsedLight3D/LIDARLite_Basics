@@ -17,7 +17,7 @@ http://arduino.cc/en/Guide/Libraries
 
 ## Arduino Setup
 
-![arduino-screenshot](http://pulsedlight3d.com/pl3d/wp-content/uploads/2014/10/arduino-setup.png)
+![arduino-screenshot](http://pulsedlight3d.net/assets.pl3d/arduino-setup.png)
 
 ### LIDARLite I2C Connection Setup
 LIDARLite Cable | Arduino Pins
