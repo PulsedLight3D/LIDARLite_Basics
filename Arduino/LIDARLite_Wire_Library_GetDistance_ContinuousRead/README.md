@@ -14,7 +14,7 @@ Demonstrates taking a distance reading using the default Arduino Wire Library (w
 
 ## Arduino Setup
 
-![arduino-screenshot](http://pulsedlight3d.com/pl3d/wp-content/uploads/2014/10/arduino-setup.png)
+![arduino-screenshot](http://pulsedlight3d.net/assets.pl3d/arduino-pwm-setup.png)
 
 ### LIDARLite I2C Connection Setup
 LIDARLite Cable | Arduino Pins
