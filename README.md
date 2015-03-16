@@ -18,4 +18,4 @@ This repository contains sample code demonstrating different features and functi
 - **lidarLite** - RaspberryPi (or ODROID C1) interface to lidarLite using the Wiring library.  See [https://github.com/answer17/lidarLite] 
 
 ## Beaglebone Black (and Arch Linux)
-- (LIDAR lite with Beaglebone Black and Arch Linux by pedro_nf)[https://pedronf65.wordpress.com/2015/03/15/lidar-lite-with-beaglebone-black-and-arch-linux/]
+- [LIDAR lite with Beaglebone Black and Arch Linux by pedro_nf](https://pedronf65.wordpress.com/2015/03/15/lidar-lite-with-beaglebone-black-and-arch-linux/)
