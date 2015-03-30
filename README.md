@@ -19,3 +19,8 @@ This repository contains sample code demonstrating different features and functi
 
 ## Beaglebone Black (and Arch Linux)
 - [LIDAR lite with Beaglebone Black and Arch Linux by pedro_nf](https://pedronf65.wordpress.com/2015/03/15/lidar-lite-with-beaglebone-black-and-arch-linux/)
+
+## ARMmbed
+
+- [Library for easy interface of LidarLite with mbed using I2C by Akash Vibhute](http://developer.mbed.org/users/akashvibhute/code/LidarLite/)
+- [Example of LidarLite library usage by Akash Vibhute](https://developer.mbed.org/users/akashvibhute/code/LidarLite_mbed/)
