@@ -1,5 +1,5 @@
 /***********************************************************************************************************
-/* BotBoarduino LIDAR Lite Sweep Scan
+/* Lynxmotion BotBoarduino LIDAR Lite Sweep Scan
 /* Version: 1.0.0
 /* By: scharette
 /* Date: 2015-03-31
