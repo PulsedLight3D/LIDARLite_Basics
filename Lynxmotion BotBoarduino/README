@@ -3,6 +3,8 @@ Version: 1.0.0
 By: scharette
 Date: 2015-03-31
 
+RobotShop blog post: http://www.robotshop.com/blog/en/lidar-lite-laser-rangefinder-simple-arduino-sketch-of-a-180-degree-radar-15284
+
 Short example based on the Servo library example "Sweep" example and the Pulsed Light 3D examples.
 The servo motor* is attached to pin 5 and rotates from 0-180 degrees continuously by 1 degree increments.
 The LIDAR lite is attached to VCC (+5 V DC), GND, SDA and SCL.
