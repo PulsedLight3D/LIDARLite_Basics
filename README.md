@@ -14,6 +14,11 @@ This repository contains sample code demonstrating different features and functi
 - **LIDARLite_I2C_Library_GetDistance_ContinuousRead**: Demonstrates taking a distance reading using the 'Arduino I2C Master Library' from DSS Circuits (a more sophisticated I2C library than the default Wire library)
 - **LIDARLite_PWM_GetDistance_ContinuousRead**: Demonstrates taking a distance reading using Pulse-Width Modulation (PWM), does not require/use I2C
 
+## /Lynxmotion BotBoarduino
+Example using the Wire library and based on the Servo library example "Sweep" example and the Pulsed Light 3D examples.
+
+This examples uses the Wire library.
+
 ## RaspberryPi (also ODROID C1)
 - **lidarLite** - RaspberryPi (or ODROID C1) interface to lidarLite using the Wiring library.  See [https://github.com/answer17/lidarLite](https://github.com/answer17/lidarLite)
 
