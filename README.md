@@ -14,6 +14,9 @@ This repository contains sample code demonstrating different features and functi
 - **LIDARLite_I2C_Library_GetDistance_ContinuousRead**: Demonstrates taking a distance reading using the 'Arduino I2C Master Library' from DSS Circuits (a more sophisticated I2C library than the default Wire library)
 - **LIDARLite_PWM_GetDistance_ContinuousRead**: Demonstrates taking a distance reading using Pulse-Width Modulation (PWM), does not require/use I2C
 
+## Texas Instruments Tiva™ C Series LaunchPad
+Simple code from Elias Olsson for reading distance values
+
 ## /Lynxmotion BotBoarduino
 Example using the Wire library and based on the Servo library example "Sweep" example and the Pulsed Light 3D examples.
 
@@ -29,3 +32,4 @@ This examples uses the Wire library.
 
 - [Library for easy interface of LidarLite with mbed using I2C by Akash Vibhute](http://developer.mbed.org/users/akashvibhute/code/LidarLite/)
 - [Example of LidarLite library usage by Akash Vibhute](https://developer.mbed.org/users/akashvibhute/code/LidarLite_mbed/)
+
