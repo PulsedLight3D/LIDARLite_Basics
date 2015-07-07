@@ -33,3 +33,6 @@ This examples uses the Wire library.
 - [Library for easy interface of LidarLite with mbed using I2C by Akash Vibhute](http://developer.mbed.org/users/akashvibhute/code/LidarLite/)
 - [Example of LidarLite library usage by Akash Vibhute](https://developer.mbed.org/users/akashvibhute/code/LidarLite_mbed/)
 
+## Johnny-Five
+
+[Proximity with LIDAR-Lite for the Johnny-Five dev environment](http://johnny-five.io/examples/proximity-lidarlite/)
