@@ -5,8 +5,8 @@
 #include "I2C_init.h"
 
 
-uint16_t LidarWriteAddr = 0xc5;
-uint16_t LidarReadAddr = 0xc4;
+uint16_t LidarWriteAddr = 0xc4;
+uint16_t LidarReadAddr = 0xc5;
 uint16_t Lidar2ByteRead = 0x8f;
 
 
