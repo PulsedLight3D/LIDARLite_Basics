@@ -1,6 +1,8 @@
 LIDARLite_I2C_Library_GetDistance_ContinuousRead
 ========================================
 
+***NOTE: Only works with LIDAR-Lite v1 (Silver Label). The I2C master library was written specifically to perform repetead starts while reading via I2C, unfortuantely this is not compatible with LIDAR-Lite v2 (Blue Label). Read more about LIDAR-Lite v2 I2C communications here: http://lidarlite.com/docs/v2/i2c_protocol_summary/***
+
 Demonstrates taking a distance reading using the 'Arduino I2C Master Library' from DSS Circuits (a more sophisticated I2C library than the default Wire library)
 
 ## Dependencies
